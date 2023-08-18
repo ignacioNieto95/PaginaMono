@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Victor Mono', monospace;
+}
+
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header{
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+}
+
+#barra-navegacion-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
+    border-bottom: solid 2px;
+    border-color: rgb(122,122,122);
+    align-items: center;
+}
+
+.contacto-barra-1{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+#contenedor-barra-navegacion-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+    padding: 10px 10px;
+    border-bottom: solid 2px;
+    border-color: rgb(122,122,122);
+
+}
+
+#barra-navegacion-2{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: rgb(122,122,122);
+}
+
+#navbar li a{
+    color: rgb(122,122,122);
+    font-weight: bolder;
+}
+
+#logo{
+    margin: 0 30px;
+}
+
+.imagen-logo{
+    height: 75px;
+    width: 120px;
+}
+
+#navbar li{
+    padding: 0 30px;
+}
+
+#barra-navegacion-1 li{
+    padding: 0 10px;
+    padding-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.iconos-redes{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.contacto-barra-navegacion{
+    
+    border-color: rgb(122, 122, 122);
+}
+
+.contenedor-rrhh{
+    width: 30px;
+    height: 30px;
+}
+
+.contenedor-rrhh-in{
+    width: 25px;
+    height: 25px;
+}
+
+.opcion-menu{
+    padding: 3px;
+}
+
+.opcion-menu:hover{
+    color: #E3E6F3;
+    background-color: rgb(215, 226, 45);
+    transition: 0.4s ease;
+    border-radius: 3px;
+}
+
+/*---------------------- Seccion Hero --------------------------*/
+
+#hero{
+    height: 75vh;
+}
+
+#info-general{
+    display: flex;
+    justify-content: center;
+    
+    padding: 100px;
+}
+
+.imagen-proyecto{
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+}
+
+#contenedor-texto{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+#contenedor-texto h4{
+    color: rgb(122, 122, 122);
+    border-bottom: solid 2px;
+    border-color: rgb(215, 226, 45);
+    margin-bottom: 30px;
+}
+
+#contenedor-texto h2{
+    color: black;
+    margin-bottom: 25px;
+}
+
+.clase-span{
+    font-weight: bolder;
+}
+
+.hero-contact{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(215, 226, 45);
+    margin: 20px 0;
+    border: none;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.hero-contact:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#contenedor-contacto-hero{
+    height: 40vh;
+    background-color: rgb(215, 226, 45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+}
+
+#contenedor-contacto-hero h2{
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.contacto-amarillo{
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(215, 226, 45);
+    margin: 10px 0;
+    border: solid 1px black;
+    font-weight: 900;
+    color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+.contacto-amarillo:hover{
+    background-color: white;
+    color: rgb(215, 226, 45);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.contenedor-btn-contacto{
+    margin: 10px;
+    padding: 10px;
+}
+
+.contenedor-telefono{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-contacto{
+    width: 32px;
+    height: 32px;
+}
+
+
+/*---------------------- Seccion Footer --------------------------*/
+
+#footer{
+    height: 40vh;
+    background: linear-gradient(rgba(5, 7, 12, 1), rgba(5, 7, 12, 0.50)), url("./imagenes/pexels-josh-hild-4270292.jpg") no-repeat center center;
+    background-position-x: 50%;
+    background-position-y: 78%;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+#footer h3{
+    color: white;
+}
+
+#footer p{
+    color: white;
+}
+
+.contenedor-footer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
