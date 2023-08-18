@@ -241,7 +241,7 @@ a{
 /*---------------------- Seccion Footer --------------------------*/
 
 #footer{
-    height: 40vh;
+    max-height: 400px;
     background: linear-gradient(rgba(5, 7, 12, 1), rgba(5, 7, 12, 0.50)), url("./imagenes/pexels-josh-hild-4270292.jpg") no-repeat center center;
     background-position-x: 50%;
     background-position-y: 78%;
@@ -250,7 +250,7 @@ a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 200px;
+    padding: 10px 50px;
 }
 
 #footer h3{
