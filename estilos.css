@@ -248,7 +248,7 @@ a{
     background-size: cover;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:start;
     justify-content: space-between;
     padding: 15px 50px;
 }
@@ -265,7 +265,93 @@ a{
     width: 20%;
     display: flex;
     flex-direction: column;
+    align-items:flex-start;
 }
+
+.parrafo-footer{
+    padding: 30px 0;
+}
+
+.h3-footer{
+    border-bottom: solid 2px rgb(215, 226, 45);
+}
+
+.btn-contenedor-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.footer-btn{
+    background: rgb(215, 226, 45);
+    border: none;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-btn:hover{
+    background:  rgb(215, 226, 45);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contenedor-proyectos-footer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.proyecto-footer-fecha{
+    margin: 0 15px;
+    background-color:  rgb(215, 226, 45);
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+.texto-fecha-footer{
+    color: black;
+}
+
+.proyecto-footer-datos{
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-proyecto{
+    color: rgb(215, 226, 45);
+}
+
+.imagen-footer{
+    height: 150px;
+    width: 240px;
+}
+
+.contenedor-footer-logo{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rrhh-footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 160px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 
 
