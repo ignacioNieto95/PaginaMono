@@ -417,4 +417,23 @@ a{
     width: 10%;
 }
 
+/*---------------------- Pagina Works --------------------------*/
 
+#contenedor-proyectos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 150px;
+}
+
+.img-proyecto{
+    height: 150px;
+    width: 300px;
+}
+
+.proyecto-individual{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+}
