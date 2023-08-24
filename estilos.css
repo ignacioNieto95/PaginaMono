@@ -369,18 +369,24 @@ a{
 
 /*---------------------- Pagina About Us --------------------------*/
 
-#contenedor-about-us{
-    padding: 50px 100px;
-    height: 60vh;
+#about-us{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#contenedor-titulo-about-us{
+#contenedor-about-us{
+    padding: 50px 200px;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+#contenedor-titulo-about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
     margin-bottom: 20px;
 }
 
@@ -395,6 +401,20 @@ a{
 
 #p-about-us{
     margin-bottom: 20px;
+}
+
+.foto-cv{
+    width: 350px;
+    height: 350px;
+    margin-right: 50px;
+}
+
+#about-us h4{
+    color: rgb(122, 122, 122);
+    border-bottom: solid 2px;
+    border-color: rgb(215, 226, 45);
+    margin-bottom: 30px;
+    width: 10%;
 }
 
 
