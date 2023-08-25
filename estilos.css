@@ -434,6 +434,32 @@ a{
 
 .proyecto-individual{
     margin: 20px;
+    background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.40)), url("./imagenes/pexels-josh-hild-4270292.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
+    height: 150px;
+    width: 300px;
+}
+
+.proyecto-individual:hover{
+    margin: 20px;
+    background: linear-gradient(rgba(5, 7, 12, 1), rgba(5, 7, 12, 0.50)), url("./imagenes/pexels-josh-hild-4270292.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 150px;
+    width: 300px;
+}
+
+.info-proyectos{
+    color: white;
 }
