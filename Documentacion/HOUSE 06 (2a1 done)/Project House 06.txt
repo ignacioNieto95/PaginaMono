@@ -1,0 +1,4 @@
+Project: House 06
+Size: 320 m2 (3444 ft2)
+Client: Chris Zenz
+Request: Autocad 2D Floor Plans x4, Elevations plans x2.

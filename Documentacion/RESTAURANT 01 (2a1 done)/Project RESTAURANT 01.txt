@@ -1,0 +1,4 @@
+Project: Restaurant 01
+Size: 550 m2 (5920 ft2)
+Client: Jideajagbe
+Request: AUTOCAD 2D Floor Plans x2, Elevations Plans x11.

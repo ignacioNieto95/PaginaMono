@@ -1,0 +1,4 @@
+Project: Bike Rent Building
+Size: 182 m2 (1960 ft2)
+Client: Imaginif_
+Request: Sketchup 3D Model, Render (by Imaginif_) x3.

@@ -1,0 +1,4 @@
+Project: House 05
+Size: 730 m2 (7870 ft2)
+Client: Matt Mosher
+Request: Sketchup 3D Model, just architectural space.

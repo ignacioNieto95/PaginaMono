@@ -1,0 +1,4 @@
+Project: House 04
+Size: 190 m2 (2045 ft2)
+Client: Naomi
+Request: Sketchup 3D Model without furnitures.
