@@ -973,6 +973,7 @@ a{
     height: 50px;
     margin-right: 10px;
     overflow: hidden;
+    border-radius: 50%;
 }
 
 .imagen-perfil img{
@@ -993,7 +994,33 @@ a{
     color: #f9d71c;
 }
 
-.comentarios-cliente p{
-    
+.nombre-usuario p{
+    font-size: 13px;
+}
+
+.other-reviews{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.other-reviews-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 85%;
+}
+
+.box-superior-other-reviews{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 25%;
 }
 
