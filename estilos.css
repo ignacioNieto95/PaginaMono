@@ -1021,6 +1021,10 @@ a{
     display: flex;
     flex-direction: column;
     margin-right: 20px;
-    width: 26%;
+    width: 25%;
+}
+
+.texto-other-reviews{
+    width: 75%;
 }
 
