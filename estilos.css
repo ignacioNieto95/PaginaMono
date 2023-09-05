@@ -183,7 +183,7 @@ video{
     border-bottom: solid 2px;
     border-color: rgb(215, 226, 45);
     margin-bottom: 30px;
-    width: 30%;
+    width: 15%;
 }
 
 #contenedor-texto h2{
@@ -459,7 +459,7 @@ video{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:center;
-    padding: 50px 100px;
+    padding: 50px 50px;
 }
 
 .img-proyecto{
