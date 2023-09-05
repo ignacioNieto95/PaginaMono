@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Victor Mono', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #header{
@@ -159,10 +159,15 @@ video{
 
 #info-general{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 100px;
     position: relative;
     z-index: 2;
     padding: 100px;
+}
+
+.vision-text{
+    margin-top: 10px;
 }
 
 .imagen-proyecto{
@@ -183,7 +188,7 @@ video{
     border-bottom: solid 2px;
     border-color: rgb(215, 226, 45);
     margin-bottom: 30px;
-    width: 15%;
+    width: 20%;
 }
 
 #contenedor-texto h2{
@@ -197,7 +202,7 @@ video{
 }
 
 .clase-span{
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .hero-contact{
@@ -295,6 +300,20 @@ video{
 }
 
 .contenedor-footer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.contenedor-footer1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.contenedor-footer0{
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -442,7 +461,7 @@ video{
     border-bottom: solid 2px;
     border-color: rgb(215, 226, 45);
     margin-bottom: 30px;
-    width: 10%;
+    width: 13%;
 }
 
 /*---------------------- Pagina Works --------------------------*/
@@ -1161,4 +1180,105 @@ form{
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+/*---------------------- Media Querys --------------------------*/
+
+@media(max-width: 799px){
+    #header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: white;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+        
+    }
+
+    #barra-navegacion-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px 5px;
+        margin-top: 5px;
+        border-bottom: none;
+        border-color: rgb(122,122,122);
+        align-items: center;
+        
+    }
+
+    #logo {
+        margin: 0 10px;
+    }
+
+    #contenedor-barra-navegacion-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 10px;
+        padding: 10px 10px;
+        border-bottom: none;
+        border-color: rgb(122,122,122);
+    }
+
+    #navbar li {
+        padding: 0 10px;
+    }
+
+    #barra-navegacion-2 {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+    }
+
+    #info-general {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+        padding: 100px;
+    }
+
+    #contenedor-texto h4 {
+        color: white;
+        border-bottom: solid 2px;
+        border-color: rgb(215, 226, 45);
+        margin-bottom: 30px;
+        width: 19%;
+    }
+
+    .contenedor-footer1 {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        display: none;
+    }
+
+    .contenedor-footer0{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        display: none;
+    }
+
+    #footer {
+        max-height: 400px;
+        background: linear-gradient(rgba(5, 7, 12, 1), rgba(5, 7, 12, 0.50)), url("./imagenes/pexels-josh-hild-4270292.jpg") no-repeat center center;
+        background-position-x: 50%;
+        background-position-y: 78%;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-around;
+        padding: 15px 50px;
+    }
 }
