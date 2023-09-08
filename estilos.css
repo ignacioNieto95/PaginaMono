@@ -33,6 +33,10 @@ body{
     align-items: center;
 }
 
+#mobile{
+    display: none;
+}
+
 .contacto-barra-1{
     display: flex;
     flex-direction: row;
@@ -62,6 +66,10 @@ body{
     flex-direction: row;
     list-style: none;
     color: rgb(122,122,122);
+}
+
+#close{
+    display: none;
 }
 
 #navbar li a{
@@ -110,6 +118,11 @@ a{
 }
 
 .contenedor-rrhh-in{
+    width: 25px;
+    height: 25px;
+}
+
+.contenedor-rrhh-in-mail{
     width: 25px;
     height: 25px;
 }
@@ -314,6 +327,13 @@ video{
 }
 
 .contenedor-footer0{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.contenedor-footer2{
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -1183,6 +1203,67 @@ form{
 }
 
 /*---------------------- Media Querys --------------------------*/
+@media(max-width: 1024px){
+    #contenedor-about-us {
+        padding: 50px 100px;
+        height: 70vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #about-us h4 {
+        color: rgb(122, 122, 122);
+        border-bottom: solid 2px;
+        border-color: rgb(215, 226, 45);
+        margin-bottom: 30px;
+        width: 20%;
+    }
+
+    .h3-footer {
+        border-bottom: solid 2px rgb(215, 226, 45);
+        width: 60%;
+    }
+
+    .review-box {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        height: 280px;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .contenedor-datos {
+        width: 33%;
+        height: 100%;
+        background-color: rgb(215, 226, 45);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info-contacto {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(215, 226, 45);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 0px 0;
+        padding-top: 35px;
+    }
+
+    .imagen-contacto {
+        width: 50px;
+        height: 50px;
+        margin: 20px 0;
+        margin-right: 15px;
+    }
+}
+
 
 @media(max-width: 799px){
     #header {
@@ -1218,7 +1299,7 @@ form{
     #contenedor-barra-navegacion-2 {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         margin: 5px 10px;
         padding: 10px 10px;
@@ -1242,7 +1323,7 @@ form{
         align-items: center;
         position: relative;
         z-index: 2;
-        padding: 100px;
+        padding: 50px;
     }
 
     #contenedor-texto h4 {
@@ -1281,4 +1362,246 @@ form{
         justify-content: space-around;
         padding: 15px 50px;
     }
+
+    #contenedor-about-us {
+        padding: 50px 50px;
+        height: 70vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #about-us h4 {
+        color: rgb(122, 122, 122);
+        border-bottom: solid 2px;
+        border-color: rgb(215, 226, 45);
+        margin-bottom: 30px;
+        width: 30%;
+    }
+
+    .contenedor-datos {
+        width: 50%;
+        height: 100%;
+        background-color: rgb(215, 226, 45);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contenedor-formulario {
+        width: 50%;
+        max-height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .input-box {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .contenedor-btn-contacto {
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+    }
+
+    .contacto-amarillo{
+        margin: 0 5px;
+    }
+}
+
+@media(max-width: 700px){
+    #info-general {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        color: rgb(122,122,122);
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0px;
+        right: -380px;
+        height: 100vh;
+        width: 300px;
+        background-color: white;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.35);
+        padding: 80px 0 0 15px;
+        transition: 0.3s;
+    }
+
+    #close{
+        display: flex;
+        position: absolute;
+        top: 30px;
+        color: rgb(122,122,122);
+        font-weight: bold;
+    }
+
+    #navbar.active{
+        right: -80px;
+    }
+
+    #navbar li{
+        margin-bottom: 15px;
+    }
+
+    #logo {
+        margin: 0 10px;
+        margin-right: 80px;
+    }
+
+    #barra-navegacion-1 li {
+        padding: 0 3px;
+        padding-bottom: 5px;
+    }
+
+    .contenedor-rrhh-in-mail {
+        width: 25px;
+        height: 25px;
+        display: none;
+    }
+
+    #barra-navegacion-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 5px;
+        margin-top: 5px;
+        border-bottom: none;
+        border-color: rgb(122,122,122);
+        align-items: center;
+    }
+
+    #mobile{
+        display: flex;
+    }
+
+    #contenedor-titulo-about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 20px;
+        height: 100%;
+    }
+
+    .foto-cv {
+        width: 100px;
+        height: 100px;
+        margin-right: 15px;
+        margin-bottom: 270px;
+    }
+
+    #contenedor-about-us {
+        margin-top: 20px;
+        padding: 10px 10px;
+        height: 70vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #about-us h4 {
+        color: rgb(122, 122, 122);
+        border-bottom: solid 2px;
+        border-color: rgb(215, 226, 45);
+        margin-bottom: 30px;
+        width: 40%;
+    }
+
+    #contenedor-texto h4 {
+        color: white;
+        border-bottom: solid 2px;
+        border-color: rgb(215, 226, 45);
+        margin-bottom: 30px;
+        width: 30%;
+    }
+
+    #contenedor-contacto-hero {
+        height: 100%;
+        background-color: rgb(215, 226, 45);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    #contenedor-contacto-hero h2 {
+        margin: 1px;
+        font-size: 40px;
+        color: white;
+    }
+
+    .contenedor-telefono {
+        display: flex;
+        flex-direction: row;
+        width: 350px;
+        justify-content: center;
+    }
+
+    #contenedor-contacto-hero p{
+        width: 350px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-footer2{
+        display: none;
+    }
+
+    .contenedor-footer-logo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #logo {
+        margin: 0 0px;
+        margin-right: 0px;
+    }
+
+    #contenedor-proyectos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px 50px;
+        width: 425px;
+    }
+
+    #works h4 {
+        color: rgb(122, 122, 122);
+        border-bottom: solid 2px;
+        border-color: rgb(215, 226, 45);
+        margin-top: 30px;
+        width: 16%;
+    }
+
+    #reviews h4 {
+        color: rgb(122, 122, 122);
+        border-bottom: solid 2px;
+        border-color: rgb(215, 226, 45);
+        margin: 30px;
+        width: 18%;
+    }
+
 }
