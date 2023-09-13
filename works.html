@@ -35,7 +35,7 @@
                 <ul id="navbar">
                     <li><a class="opcion-menu" href="index.html">FRONT PAGE</a></li>
                     <li><a class="opcion-menu" href="aboutus.html">ABOUT US</a></li>
-                    <li><a class="opcion-menu" href="works.html">WORKS</a></li>
+                    <li><a class="opcion-menu active" href="works.html">WORKS</a></li>
                     <li><a class="opcion-menu" href="reviews.html">REVIEWS</a></li>
                     <li><a class="opcion-menu" href="contactus.html">CONTACT</a></li>
                     <a href="#" id="close">X</a>
@@ -54,7 +54,43 @@
     <section id="works">
         <h4>WORKS</h4>
         <div id="contenedor-proyectos">
-            <div class="proyecto-individual1 margen-proy-ind">
+            <script>
+                const trabajos = [
+                    {id:1, project: "House 01", size: "820 m2 (8826 ft2)", client: "Lisa Ellis Desing", request: "Sketchup 3D Model, Floor Plans x3, Elevations Plans x6"},
+                    {id:2, project: "House 02", size: "550 m2 (5920 ft2)", client: "Maggie Ketchu", request: "Sketchup 3D Interior Model, Floor Plans x2, Render x1, Walkthrought x1"},
+                    {id:3, project: "House 03", size: "335 m2 (3605 ft2)", client: "Lisa Ellis Desing", request: "Sketchup 3D Model; Main Floor Interior without furnitures"},
+                    {id:4, project: "House 04", size: "190 m2 (2045 ft2)", client: "Naomi", request: "Sketchup 3D Model without furnitures"},
+                    {id:5, project: "House 05", size: "730 m2 (7870 ft2)", client: "Matt Mosher", request: "Sketchup 3D Model, just architectural space"},
+                    {id:6, project: "House 06", size: "320 m2 (3444 ft2)", client: "Chris Zenz", request: "Autocad 2D Floor Plans x4, Elevations plans x2"},
+                    {id:7, project: "House 07", size: "80 m2 (860 ft2)", client: "Lisa Ellis Desing", request: "Sketchup 3D Model Loggia & Furniture Design with AutoCAD 2D Drawings"},
+                    {id:8, project: "Farm House 1", size: "472 m2 (5080 ft2)", client: "Rober Klm", request: "Sketchup 3D Model -just architectural space-, Floor Plan x3, Roof Plan x1, Facades x9"},
+                    {id:9, project: "Bike Rent Building", size: "182 m2 (1960 ft2)", client: "Imaginif_", request: "Sketchup 3D Model, Render (by Imaginif_) x3"},
+                    {id:10, project: "Restaurant 01", size: "550 m2 (5920 ft2)", client: "Jideajagbe", request: "Sketchup 3D Model, Floor Plans x3, Elevations Plans x6"},
+                    {id:11, project: "Circle Church", size: "1000 m2 (10764 ft2)", client: "Matts Crowder", request: "Sketchup 3D Interior Model, Floor Plan x1"},
+                    {id:12, project: "NGO BUILDING", size: "368 m2 (3950 ft2)", client: "NGO Anonymous", request: "AUTOCAD 2D Floor Plans x3, Roof Plan x1, Elevations Plans x2"},
+                    {id:13, project: "Office 01", size: "820 m2 (8826 ft2)", client: "Arq. Matias Nola", request: "AUTOCAD 2D Floor Plans x2, Elevations Plans x3"},
+                    {id:14, project: "Office 02", size: "1390 m2 (14960 ft2)", client: "Arq. Matias Nola", request: "AUTOCAD 2D Floor Plans x2, Elevations Plans x3"},
+                    {id:15, project: "PHI MU - DORMS BATHROOMS", size: "80 m2 (860 ft2)", client: "Lisa Ellis Desing", request: "Sketchup 3D Model, Floor plans x2, elevations x8"}
+                ]
+
+                trabajos.forEach(trabajo => {
+                    document.write(`
+                    <div class="proyecto-individual${trabajo.id} margen-proy-ind">
+                        <div class="capa">
+                            <a class="mas-info" href="singlework.html?id=${trabajo.id}">
+                                <p>${trabajo.project}</p>
+                                <h3 class="info-proyectos">+ Info</h3>
+                            </a>
+                        </div>
+                    </div>
+                    `)
+                })
+
+
+            </script>
+        </div>
+        <div id="contenedor-proyectos">
+            <!--<div class="proyecto-individual1 margen-proy-ind">
                 <div class="capa">
                     <a class="mas-info" href="">
                         <p>House 1</p>
@@ -173,7 +209,7 @@
                         <h3 class="info-proyectos">+ Info</h3>
                     </a>
                 </div>
-            </div>
+            </div>-->
         </div>
         <div class="contenedor-btn-pag">
             <div class="btns-pag">
@@ -187,16 +223,6 @@
         <div class="contenedor-footer0">
             <h3 class="h3-footer">ABOUT US</h3>
             <p class="parrafo-footer">Our company excels at transforming Point Cloud scans into usable 2D AutoCAD plans and 3D SketchUp Models.</p>
-            <p>Contact us for your vision!</p>
-        </div>
-        <div class="contenedor-footer1">
-            <h3 class="h3-footer">OUR SITE</h3>
-            <div class="btn-contenedor-footer">
-                <button class="footer-btn"><h4>FRONT PAGE</h4></button>
-                <button class="footer-btn"><h4>ABOUT US</h4></button>
-                <button class="footer-btn"><h4>WORKS</h4></button>
-                <button class="footer-btn"><h4>REVIEWS</h4></button>
-            </div>
         </div>
         <div class="contenedor-footer2">
             <h3 class="h3-footer">RECENT PROYECTS</h3>
