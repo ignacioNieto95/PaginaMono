@@ -1766,7 +1766,7 @@ form{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        padding: 50px 50px;
+        padding: 50px 10px;
         width: 425px;
     }
 
