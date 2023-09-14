@@ -1322,12 +1322,16 @@ form{
 
 .thumbnail {
     height: 100%; /* Ancho de las miniaturas */
-    margin: 0 20px;
+    margin: 0 0px;
     cursor: pointer;
 }
 
 /* Estilos para resaltar la miniatura seleccionada */
 .thumbnail.active {
+    border: 2px solid rgb(215, 226, 45);
+}
+
+.contendor-img-mini.active{
     border: 2px solid rgb(215, 226, 45);
 }
 
@@ -1390,6 +1394,12 @@ form{
         height: 50px;
         margin: 20px 0;
         margin-right: 15px;
+    }
+
+    #texto-detalle-work {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        margin-left: 140px;
     }
 }
 
@@ -1544,6 +1554,48 @@ form{
 
     .contacto-amarillo{
         margin: 0 5px;
+    }
+
+    #contenedor-work {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        justify-content: center;
+    }
+
+    #texto-detalle-work {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+    }
+
+    #contenedor-work {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #detalle-work .img-detalle-work {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .carousel-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .carousel-main {
+        width: 100%px;
+        height: 202.8px;
+        overflow: hidden;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
     }
 }
 
