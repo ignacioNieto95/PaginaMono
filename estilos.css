@@ -1317,13 +1317,13 @@ form{
 .contenedor-img-mini{
     width: 150px;
     height: 75px;
-    margin: 5px;
+    margin: 20px;
 }
 
 .thumbnail {
-    width: 100%; /* Ancho de las miniaturas */
-    height: 100%;
-    margin: 0 0px;
+    height: 100%; /* Ancho de las miniaturas */
+    
+    margin: 0 20px;
     cursor: pointer;
 }
 
