@@ -1322,7 +1322,6 @@ form{
 
 .thumbnail {
     height: 100%; /* Ancho de las miniaturas */
-    
     margin: 0 20px;
     cursor: pointer;
 }
